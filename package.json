@@ -1,0 +1,27 @@
+{
+  "name": "food_app",
+  "version": "1.0.0",
+  "description": "This is a Food Delevary website",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhinayReddy09/Food_App.git"
+  },
+  "keywords": [
+    "Food"
+  ],
+  "author": "Abhinay Reddy Veerlapally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhinayReddy09/Food_App/issues"
+  },
+  "homepage": "https://github.com/AbhinayReddy09/Food_App#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
