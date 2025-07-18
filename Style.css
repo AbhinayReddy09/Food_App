@@ -1,0 +1,44 @@
+/* Layout the header with space between logo and navbar items */
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+    padding: 0px 20px;
+}
+
+.nav-items > ul {
+  font-size: 14px;  
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.navbar-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
